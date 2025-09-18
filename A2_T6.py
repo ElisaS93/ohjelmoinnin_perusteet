@@ -18,3 +18,4 @@ print(f"- Red (Hex[1:3]) ")
 # - Blue 00
 
 # Program ending.
+print("Program ending.")
