@@ -5,17 +5,19 @@
 # Example program run:
 
 # Program starting.
-print("Program starting.")
+print("Program starting.\n")
 
 # Insert a hex color: #FFA500'
 Hex = input("Insert a hex color: ")
 
 # Colors
-print("Colors")
+print("\nColors")
 # - Red FF
-print(f"- Red (Hex[1:3]) ")
+print(f"- Red {Hex[1:3]}")
 # - Green A5
+print(f"- Green {Hex[3:5]}")
 # - Blue 00
+print(f"- Blue {Hex[5:7]}")
 
 # Program ending.
-print("Program ending.")
+print("\nProgram ending.")

@@ -5,6 +5,11 @@
 # Example program run:
 
 # Program starting.
+print("Program starting.")
 # Insert fahrenheits: 50
+Fa = int(input("Insert fahrenheits: "))
+Cel = (Fa - 32) / 1.8
 # 50.0°F is 10.0°C
+print(f"{Fa}°F is {round(Cel, 1)}°C")
 # Program ending.
+print("Program ending.")
